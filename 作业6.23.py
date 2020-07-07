@@ -1,3 +1,5 @@
+import sys, io
+sys.stdout=io.TextIOWrapper(sys.stdout.bu)
 #提现和充值
 import requests
 def log_andreg_(url,data,method='post'):
